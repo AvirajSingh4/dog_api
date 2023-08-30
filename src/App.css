@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .img {
+    width: 160px;
+    height: 160px;
+    top: 196px;
+    left: 260px;
+    border-radius: 4px;
+    
+  }
+  h1{
+    width: 131px;
+    height: 24px;
+    top: 57px;
+    left: 61px;
+    flex: auto;
+  }
+.header{
+  display: flex;
+  text-align: justify;
+}
+  input{
+    width: 455px;
+    height: 36px;
+    border-radius: 4px ;
+    background: #F7F7F7;
+    border: 0.5px solid #F7F7F7;
+  }
+  button{
+    width: 105px;
+    height: 36px;
+    padding-left: 30px;
+  }
+ .searchicon{
+    margin: 6px -30px -19px 2px;
+    z-index: 1;
+    color: white;
+}
+  .searchbar{
+    height: 36px;
+    top: 121px;
+    left: 60px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  .image-item{
+    display: flex;
+    align-items: self-end;
+  }
